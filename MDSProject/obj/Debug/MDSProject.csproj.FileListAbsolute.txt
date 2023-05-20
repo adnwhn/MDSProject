@@ -1,0 +1,15 @@
+C:\Users\adndo\Desktop\MDS\MDSProject\MDSProject\bin\Debug\MDSProject.exe.config
+C:\Users\adndo\Desktop\MDS\MDSProject\MDSProject\bin\Debug\MDSProject.exe
+C:\Users\adndo\Desktop\MDS\MDSProject\MDSProject\bin\Debug\MDSProject.pdb
+C:\Users\adndo\Desktop\MDS\MDSProject\MDSProject\obj\Debug\MDSProject.csproj.AssemblyReference.cache
+C:\Users\adndo\Desktop\MDS\MDSProject\MDSProject\obj\Debug\MainWindow.g.cs
+C:\Users\adndo\Desktop\MDS\MDSProject\MDSProject\obj\Debug\App.g.cs
+C:\Users\adndo\Desktop\MDS\MDSProject\MDSProject\obj\Debug\MDSProject_MarkupCompile.cache
+C:\Users\adndo\Desktop\MDS\MDSProject\MDSProject\obj\Debug\MDSProject_MarkupCompile.lref
+C:\Users\adndo\Desktop\MDS\MDSProject\MDSProject\obj\Debug\MainWindow.baml
+C:\Users\adndo\Desktop\MDS\MDSProject\MDSProject\obj\Debug\MDSProject.g.resources
+C:\Users\adndo\Desktop\MDS\MDSProject\MDSProject\obj\Debug\MDSProject.Properties.Resources.resources
+C:\Users\adndo\Desktop\MDS\MDSProject\MDSProject\obj\Debug\MDSProject.csproj.GenerateResource.cache
+C:\Users\adndo\Desktop\MDS\MDSProject\MDSProject\obj\Debug\MDSProject.csproj.CoreCompileInputs.cache
+C:\Users\adndo\Desktop\MDS\MDSProject\MDSProject\obj\Debug\MDSProject.exe
+C:\Users\adndo\Desktop\MDS\MDSProject\MDSProject\obj\Debug\MDSProject.pdb
