@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MDSProject"
         mc:Ignorable="d"
-        Title="DashboardWindow" Height="450" Width="800">
+        Title="Dashboard" Height="450" Width="800">
     <Window.Resources>
         <Color x:Key="BaseColor2">#FF46828B</Color>
     </Window.Resources>
