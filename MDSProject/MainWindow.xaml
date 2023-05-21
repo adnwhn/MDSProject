@@ -7,11 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid RenderTransformOrigin="0.506,0.484">
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="349,139,0,0" TextWrapping="Wrap" Text="username" VerticalAlignment="Top" Width="120"/>
-        <PasswordBox HorizontalAlignment="Left" Margin="349,180,0,0" VerticalAlignment="Top" Width="120" Password="password"/>
-        <TextBlock HorizontalAlignment="Left" Margin="247,142,0,0" TextWrapping="Wrap" Text="Username:" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="247,181,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="GradeApp" VerticalAlignment="Top" Margin="364,55,373,0" Width="55"/>
-        <Button Content="Login" HorizontalAlignment="Center" Margin="349,245,368,0" VerticalAlignment="Top" Width="75"/>
+        <Grid.Background>
+            <RadialGradientBrush>
+                <GradientStop Color="#FF46828B" Offset="0"/>
+                <GradientStop Color="#FF8FC7B5" Offset="1"/>
+            </RadialGradientBrush>
+        </Grid.Background>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="383,150,0,0" TextWrapping="Wrap" Text="username" VerticalAlignment="Top" Width="120"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="383,189,0,0" VerticalAlignment="Top" Width="120" Password="password" Height="23"/>
+        <TextBlock HorizontalAlignment="Left" Margin="298,150,0,0" TextWrapping="Wrap" Text="Username:" VerticalAlignment="Top" Foreground="White" FontSize="16" Width="75" Height="23"/>
+        <TextBlock HorizontalAlignment="Left" Margin="298,189,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top" Foreground="White" FontSize="16" Width="75" Height="23"/>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="GradeApp" VerticalAlignment="Top" Margin="332,55,292,0" Width="136" FontSize="30" Foreground="White"/>
+        <Button Content="Login" HorizontalAlignment="Center" Margin="365,245,368,0" VerticalAlignment="Top" Width="70" FontSize="16" Height="32"/>
     </Grid>
 </Window>
