@@ -6,8 +6,12 @@
         xmlns:local="clr-namespace:MDSProject"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Button Content="Button" HorizontalAlignment="Center" Height="55" Margin="326,189,294,175" VerticalAlignment="Center" Width="172"/>
-
+    <Grid RenderTransformOrigin="0.506,0.484">
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="349,139,0,0" TextWrapping="Wrap" Text="username" VerticalAlignment="Top" Width="120"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="349,180,0,0" VerticalAlignment="Top" Width="120" Password="password"/>
+        <TextBlock HorizontalAlignment="Left" Margin="247,142,0,0" TextWrapping="Wrap" Text="Username:" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="247,181,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="GradeApp" VerticalAlignment="Top" Margin="364,55,373,0" Width="55"/>
+        <Button Content="Login" HorizontalAlignment="Center" Margin="349,245,368,0" VerticalAlignment="Top" Width="75"/>
     </Grid>
 </Window>
