@@ -13,3 +13,8 @@ C:\Users\adndo\Desktop\MDS\MDSProject\MDSProject\obj\Debug\MDSProject.csproj.Gen
 C:\Users\adndo\Desktop\MDS\MDSProject\MDSProject\obj\Debug\MDSProject.csproj.CoreCompileInputs.cache
 C:\Users\adndo\Desktop\MDS\MDSProject\MDSProject\obj\Debug\MDSProject.exe
 C:\Users\adndo\Desktop\MDS\MDSProject\MDSProject\obj\Debug\MDSProject.pdb
+C:\Users\adndo\Desktop\MDS\MDSProject\MDSProject\obj\Debug\Gradebook.g.cs
+C:\Users\adndo\Desktop\MDS\MDSProject\MDSProject\obj\Debug\Curriculum.g.cs
+C:\Users\adndo\Desktop\MDS\MDSProject\MDSProject\obj\Debug\Dashboard.g.cs
+C:\Users\adndo\Desktop\MDS\MDSProject\MDSProject\obj\Debug\Grade.g.cs
+C:\Users\adndo\Desktop\MDS\MDSProject\MDSProject\obj\Debug\ViewGradebook.g.cs

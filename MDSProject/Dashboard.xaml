@@ -21,7 +21,7 @@
         <TextBox HorizontalAlignment="Left" Height="38" Margin="503,6,0,0" TextWrapping="Wrap" Text="Welcome, (nameVariable)!" VerticalAlignment="Top" Width="222" TextChanged="TextBox_TextChanged" FontSize="18" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" SelectionBrush="{x:Null}" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="White"/>
         <Button Content="Menu" HorizontalAlignment="Left" Height="38" Margin="10,6,0,0" VerticalAlignment="Top" Width="52" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontSize="16"/>
         <Button Content="Log Out" HorizontalAlignment="Left" Height="38" Margin="730,6,0,0" VerticalAlignment="Top" Width="52" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="White"/>
-        <Rectangle HorizontalAlignment="Left" Height="36" Margin="25,318,0,0" VerticalAlignment="Top" Width="750">
+        <Rectangle HorizontalAlignment="Left" Height="36" Margin="25,295,0,0" VerticalAlignment="Top" Width="750">
             <Rectangle.Fill>
                 <LinearGradientBrush EndPoint="1,1" StartPoint="0,0">
                     <GradientStop Color="#FF46828B"/>
@@ -29,61 +29,49 @@
                 </LinearGradientBrush>
             </Rectangle.Fill>
         </Rectangle>
-        <Rectangle HorizontalAlignment="Left" Height="36" Margin="25,59,0,0" VerticalAlignment="Top" Width="363" RenderTransformOrigin="0.774,-8.423">
+        <Rectangle HorizontalAlignment="Left" Height="36" Margin="25,70,0,0" VerticalAlignment="Top" Width="363" RenderTransformOrigin="0.774,-8.423">
             <Rectangle.Fill>
                 <SolidColorBrush Color="{DynamicResource BaseColor2}"/>
             </Rectangle.Fill>
         </Rectangle>
-        <Rectangle HorizontalAlignment="Left" Height="36" Margin="412,59,0,0" VerticalAlignment="Top" Width="363" RenderTransformOrigin="0.774,-8.423">
+        <Rectangle HorizontalAlignment="Left" Height="36" Margin="412,70,0,0" VerticalAlignment="Top" Width="363" RenderTransformOrigin="0.774,-8.423">
             <Rectangle.Fill>
                 <SolidColorBrush Color="{DynamicResource BaseColor2}"/>
             </Rectangle.Fill>
         </Rectangle>
-        <TextBlock HorizontalAlignment="Left" Height="36" Margin="30,318,0,0" TextWrapping="Wrap" Text="Contact" VerticalAlignment="Top" Width="84" Foreground="White" FontSize="20"/>
-        <TextBlock HorizontalAlignment="Left" Height="36" Margin="30,59,0,0" TextWrapping="Wrap" Text="General Data" VerticalAlignment="Top" Width="120" Foreground="White" FontSize="20"/>
-        <TextBlock HorizontalAlignment="Left" Height="36" Margin="417,59,0,0" TextWrapping="Wrap" Text="Educational Data" VerticalAlignment="Top" Width="153" Foreground="White" FontSize="20"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="25,355,0,0" TextWrapping="Wrap" Text="Address:" VerticalAlignment="Top" Width="240" FontWeight="Bold" FontSize="16"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="535,355,0,0" TextWrapping="Wrap" Text="Email:" VerticalAlignment="Top" Width="240" FontWeight="Bold" FontSize="16"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="280,355,0,0" TextWrapping="Wrap" Text="Phone No.:" VerticalAlignment="Top" Width="240" FontWeight="Bold" FontSize="16"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="25,379,0,0" TextWrapping="Wrap" Text="(address)" VerticalAlignment="Top" Width="240" FontSize="16"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="280,379,0,0" TextWrapping="Wrap" Text="(phone)" VerticalAlignment="Top" Width="240" FontSize="16"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="535,379,0,0" TextWrapping="Wrap" Text="(email)" VerticalAlignment="Top" Width="240" FontSize="16"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="25,95,0,0" TextWrapping="Wrap" Text="First Name:" VerticalAlignment="Top" Width="88" FontWeight="Bold" FontSize="16"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="25,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="88" FontWeight="Bold" Text="Last Name:" FontSize="16"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="25,215,0,0" TextWrapping="Wrap" Text="Citizenship:" VerticalAlignment="Top" Width="88" FontWeight="Bold" FontSize="16"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="25,191,0,0" TextWrapping="Wrap" Text="City:" VerticalAlignment="Top" Width="88" FontWeight="Bold" FontSize="16"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="25,143,0,0" TextWrapping="Wrap" Text="Birth Date:" VerticalAlignment="Top" Width="88" FontWeight="Bold" FontSize="16"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="25,167,0,0" TextWrapping="Wrap" Text="Country:" VerticalAlignment="Top" Width="88" FontWeight="Bold" FontSize="16"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="25,239,0,0" TextWrapping="Wrap" Text="Gender:" VerticalAlignment="Top" Width="88" FontWeight="Bold" FontSize="16"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="25,263,0,0" TextWrapping="Wrap" Text="SSN:" VerticalAlignment="Top" Width="88" FontWeight="Bold" FontSize="16"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="25,287,0,0" TextWrapping="Wrap" Text="ID:" VerticalAlignment="Top" Width="88" FontWeight="Bold" FontSize="16"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="412,95,0,0" TextWrapping="Wrap" Text="Admission year:" VerticalAlignment="Top" Width="130" FontWeight="Bold" FontSize="16"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="412,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130" FontWeight="Bold" FontSize="16" Text="Admision grade:"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="412,215,0,0" TextWrapping="Wrap" Text="Class:" VerticalAlignment="Top" Width="130" FontWeight="Bold" FontSize="16"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="412,191,0,0" TextWrapping="Wrap" Text="Domain:" VerticalAlignment="Top" Width="130" FontWeight="Bold" FontSize="16"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="412,143,0,0" TextWrapping="Wrap" Text="Univeristy:" VerticalAlignment="Top" Width="130" FontWeight="Bold" FontSize="16"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="412,167,0,0" TextWrapping="Wrap" Text="Degree:" VerticalAlignment="Top" Width="130" FontWeight="Bold" FontSize="16"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="412,239,0,0" TextWrapping="Wrap" Text="Year:" VerticalAlignment="Top" Width="130" FontWeight="Bold" FontSize="16"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="412,263,0,0" TextWrapping="Wrap" Text="SID:" VerticalAlignment="Top" Width="130" FontWeight="Bold" FontSize="16"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="412,287,0,0" TextWrapping="Wrap" Text="Type:" VerticalAlignment="Top" Width="130" FontWeight="Bold" FontSize="16"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="118,95,0,0" TextWrapping="Wrap" Text="First Name:" VerticalAlignment="Top" Width="270" FontSize="16" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="118,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="270" Text="Last Name:" FontSize="16" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="118,215,0,0" TextWrapping="Wrap" Text="Citizenship:" VerticalAlignment="Top" Width="270" FontSize="16" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="118,191,0,0" TextWrapping="Wrap" Text="City:" VerticalAlignment="Top" Width="270" FontSize="16" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="118,143,0,0" TextWrapping="Wrap" Text="Birth Date:" VerticalAlignment="Top" Width="270" FontSize="16" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="118,167,0,0" TextWrapping="Wrap" Text="Country:" VerticalAlignment="Top" Width="270" FontSize="16" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="118,239,0,0" TextWrapping="Wrap" Text="Gender:" VerticalAlignment="Top" Width="270" FontSize="16" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="118,263,0,0" TextWrapping="Wrap" Text="SSN:" VerticalAlignment="Top" Width="270" FontSize="16" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="118,287,0,0" TextWrapping="Wrap" Text="ID:" VerticalAlignment="Top" Width="270" FontSize="16" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="540,95,0,0" TextWrapping="Wrap" Text="Admission year:" VerticalAlignment="Top" Width="235" FontSize="16" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="540,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="235" FontSize="16" Text="Admision grade:" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="540,215,0,0" TextWrapping="Wrap" Text="Class:" VerticalAlignment="Top" Width="235" FontSize="16" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="540,191,0,0" TextWrapping="Wrap" Text="Domain:" VerticalAlignment="Top" Width="235" FontSize="16" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="540,143,0,0" TextWrapping="Wrap" Text="Univeristy:" VerticalAlignment="Top" Width="235" FontSize="16" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="540,167,0,0" TextWrapping="Wrap" Text="Degree:" VerticalAlignment="Top" Width="235" FontSize="16" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="540,239,0,0" TextWrapping="Wrap" Text="Year:" VerticalAlignment="Top" Width="235" FontSize="16" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="540,263,0,0" TextWrapping="Wrap" Text="SID:" VerticalAlignment="Top" Width="235" FontSize="16" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="540,287,0,0" TextWrapping="Wrap" Text="Type:" VerticalAlignment="Top" Width="235" FontSize="16" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Height="36" Margin="30,295,0,0" TextWrapping="Wrap" Text="Contact" VerticalAlignment="Top" Width="84" Foreground="White" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Height="36" Margin="30,70,0,0" TextWrapping="Wrap" Text="General Data" VerticalAlignment="Top" Width="120" Foreground="White" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Height="36" Margin="417,70,0,0" TextWrapping="Wrap" Text="Educational Data" VerticalAlignment="Top" Width="153" Foreground="White" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="422,332,0,0" TextWrapping="Wrap" Text="Email:" VerticalAlignment="Top" Width="350" FontWeight="Bold" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="25,332,0,0" TextWrapping="Wrap" Text="Phone No.:" VerticalAlignment="Top" Width="350" FontWeight="Bold" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="25,356,0,0" TextWrapping="Wrap" Text="(phone)" VerticalAlignment="Top" Width="350" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="422,356,0,0" TextWrapping="Wrap" Text="(email)" VerticalAlignment="Top" Width="350" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="25,106,0,0" TextWrapping="Wrap" Text="First Name:" VerticalAlignment="Top" Width="88" FontWeight="Bold" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="25,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="88" FontWeight="Bold" Text="Last Name:" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="25,178,0,0" TextWrapping="Wrap" Text="Country:" VerticalAlignment="Top" Width="88" FontWeight="Bold" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="25,202,0,0" TextWrapping="Wrap" Text="SSN:" VerticalAlignment="Top" Width="88" FontWeight="Bold" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="25,226,0,0" TextWrapping="Wrap" Text="ID:" VerticalAlignment="Top" Width="88" FontWeight="Bold" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="412,106,0,0" TextWrapping="Wrap" Text="Admission year:" VerticalAlignment="Top" Width="140" FontWeight="Bold" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="412,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" FontWeight="Bold" FontSize="16" Text="Admission grade:"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="412,226,0,0" TextWrapping="Wrap" Text="Class:" VerticalAlignment="Top" Width="140" FontWeight="Bold" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="412,202,0,0" TextWrapping="Wrap" Text="Domain:" VerticalAlignment="Top" Width="140" FontWeight="Bold" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="412,154,0,0" TextWrapping="Wrap" Text="University:" VerticalAlignment="Top" Width="140" FontWeight="Bold" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="412,178,0,0" TextWrapping="Wrap" Text="Degree:" VerticalAlignment="Top" Width="140" FontWeight="Bold" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="412,250,0,0" TextWrapping="Wrap" Text="Year:" VerticalAlignment="Top" Width="140" FontWeight="Bold" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="28,154,0,0" TextWrapping="Wrap" Text="SID/TID/UID:" VerticalAlignment="Top" Width="88" FontWeight="Bold" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="118,106,0,0" TextWrapping="Wrap" Text="First Name:" VerticalAlignment="Top" Width="270" FontSize="16" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="118,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="270" Text="Last Name:" FontSize="16" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="118,178,0,0" TextWrapping="Wrap" Text="Country:" VerticalAlignment="Top" Width="270" FontSize="16" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="118,202,0,0" TextWrapping="Wrap" Text="SSN:" VerticalAlignment="Top" Width="270" FontSize="16" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="118,226,0,0" TextWrapping="Wrap" Text="ID:" VerticalAlignment="Top" Width="270" FontSize="16" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="552,106,0,0" TextWrapping="Wrap" Text="Admission year:" VerticalAlignment="Top" Width="220" FontSize="16" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="552,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" FontSize="16" Text="Admisssion grade:" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="552,226,0,0" TextWrapping="Wrap" Text="Class:" VerticalAlignment="Top" Width="220" FontSize="16" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="552,202,0,0" TextWrapping="Wrap" Text="Domain:" VerticalAlignment="Top" Width="220" FontSize="16" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="552,154,0,0" TextWrapping="Wrap" Text="Univeristy:" VerticalAlignment="Top" Width="220" FontSize="16" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="552,178,0,0" TextWrapping="Wrap" Text="Degree:" VerticalAlignment="Top" Width="220" FontSize="16" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="552,250,0,0" TextWrapping="Wrap" Text="Year:" VerticalAlignment="Top" Width="220" FontSize="16" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="118,154,0,0" TextWrapping="Wrap" Text="SID:" VerticalAlignment="Top" Width="270" FontSize="16" TextAlignment="Center"/>
 
     </Grid>
 </Window>
